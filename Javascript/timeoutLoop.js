@@ -12,4 +12,7 @@ code to the event loop
 
 So when this synchronous block execution completes then only asynchronous will execute the synchronous will end only when the loop stops
 
-At the time loop ends the i=6 thats why the loop ends So the asynchronous will execute the i which is 6 thats all*/
+At the time loop ends the i=6 thats why the loop ends So the asynchronous will execute the i which is 6 thats all. 
+
+
+This can be changed via putting var to let this makes the variable block scoped so everytime the new instance creating for i variable so it will print 1 2 3 4 5*/
